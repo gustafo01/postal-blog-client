@@ -1,0 +1,16 @@
+@import "../../static/styles/variables.scss";
+
+.navWrapper {
+    padding: 15px 0;
+    background-color: $navColor;
+    box-shadow: $shadow;
+    nav ul {
+        text-transform: uppercase;
+        li {
+            margin-left: 30px;
+        }
+        a {
+            margin-right: 30px;
+        }
+    }
+}

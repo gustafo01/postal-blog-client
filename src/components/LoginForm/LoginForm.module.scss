@@ -1,0 +1,44 @@
+@import "../../static/styles/variables.scss";
+
+.loginWrapper {
+    padding: 50px 100px;
+    background-color: $mainColor;
+    box-shadow: $shadow;
+}
+
+.inputsWrap {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    input {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px;
+        width: 300px;
+        outline: none;
+        &:first-child {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.btnsWrap {
+    display: flex;
+    justify-content: center;
+    a {
+        background-color: $btnColorOne;
+        border-radius: 5px;
+        padding: 8px 15px;
+        font-size: 14px;
+        line-height: 14px;  
+        color: $mainColorText;
+        box-shadow: $shadow;
+        transition: 0.3s;
+        &:hover {
+            background-color: $btnColorOneHover;
+        }
+        &:first-child {
+            margin-right: 30px;
+        }
+    }
+}

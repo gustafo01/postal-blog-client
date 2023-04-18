@@ -1,0 +1,31 @@
+@import "../../static/styles/variables.scss";
+
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    padding: 40px 60px;
+    background-color: $backColor;
+    h3 {
+        margin-bottom: 30px;
+    }
+}
+
+.imgBlock {
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 40px;
+    img {
+        width: 100%;
+    }
+}

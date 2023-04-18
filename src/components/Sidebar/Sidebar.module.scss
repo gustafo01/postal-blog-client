@@ -1,0 +1,77 @@
+@import "../../static/styles/variables.scss";
+
+.sidebar {
+    width: 300px;
+    background-color: $mainColor;
+    box-shadow: $shadow;
+    position: relative;
+    z-index: 0;
+    transition: 0.5s;
+    .sidebarContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 130px 0;
+        button {
+            margin-top: 100px;
+        }
+    }
+}
+
+.active {
+    display: none;
+}
+
+.imgBlock {
+    width: 86px;
+    height: 86px;
+    margin-bottom: 15px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 24px -8px rgba(0,0,0,0.75);
+    position: relative;
+    transition: 0.3s;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    &:hover:before {
+        content: '+';
+        font-size: 30px;
+        display: block;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+
+.backgroundUser {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    img {
+        width: 100%;
+    }
+    &:hover:before {
+        content: '+';
+        font-size: 30px;
+        display: block;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}

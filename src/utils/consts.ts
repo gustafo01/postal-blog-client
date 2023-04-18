@@ -1,0 +1,8 @@
+export const LOGIN_ROUTE = "/login"
+export const REG_ROUTE = "/registration"
+export const HOME_ROUTE = "/home/*"
+export const CHAT_ROUTE = "chat"
+export const REVIEW_ROUTE = "review"
+export const PROFILE_ROUTE = "profile"
+export const NEWS_ROUTE = "posts"
+export const USERS_ROUTE = "users"

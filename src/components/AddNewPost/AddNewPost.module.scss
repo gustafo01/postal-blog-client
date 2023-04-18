@@ -1,0 +1,23 @@
+@import "../../static/styles/variables.scss";
+
+.container {
+    padding: 20px;
+    button {
+        margin-top: 15px;
+    }
+}
+
+.inputsWrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    border: 1px solid $subColorText;
+    padding: 10px;
+    resize: none;
+}
+
+.input:first-child {
+    margin-bottom: 30px;
+}

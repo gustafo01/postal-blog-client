@@ -1,0 +1,6 @@
+@import "../../static/styles/variables.scss";
+
+.container {
+    overflow-y: scroll;
+    max-height: calc(100vh - 46.8px);
+}
